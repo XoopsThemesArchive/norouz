@@ -1,0 +1,159 @@
+body{
+color:#666666;background-color:#DCCEB1;font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; font-size: 11px; }
+
+#corp{
+top:0px;
+left:0px;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+#login {
+position: absolute;
+top:50px;
+right:60px;
+height:120px;
+width:120px;
+}
+
+
+span.titremenu{
+color:#000000;
+font-weight:bold;
+position:relative;
+top:20px;
+left:90px;
+font-size:10px;
+}
+span.titrecentre{
+color:#000000;
+font-weight:bold;
+position:relative;
+top:21px;
+left:96px;
+font-size:10px;
+}
+
+.separation{
+clear:both;
+visibility: hidden;
+}
+.blockTitle{
+     font-family : Tahoma;
+     font-size : 8pt;
+     font-weight : bold;
+     text-align : center;
+}
+SELECT {
+     BORDER-RIGHT: #FEFEFE 1px solid; BORDER-TOP: #DFCAB5 1px solid; SCROLLBAR-FACE-COLOR: #b2a283; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #d5aa80; BORDER-LEFT: #6a3500 1px solid; SCROLLBAR-SHADOW-COLOR: #a7753a; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #ca9560; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #996633; BORDER-BOTTOM: #eeddcc 1px solid; FONT-FAMILY:  Tahoma; SCROLLBAR-DARKSHADOW-COLOR: #DFCAB5; BACKGROUND-COLOR: #BF8E5F; TEXT-DECORATION: none
+}
+
+body {
+SCROLLBAR-FACE-COLOR: #b2a283; SCROLLBAR-HIGHLIGHT-COLOR: #D3DCEF; SCROLLBAR-SHADOW-COLOR: #DFCAB5; SCROLLBAR-3DLIGHT-COLOR: #c78f58 SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #996633; SCROLLBAR-DARKSHADOW-COLOR: #DFCAB5; 
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+INPUT {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;;
+	background-color : #E3EEF2;
+ }
+TEXTAREA {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #DFCAB5;
+}
+
+a {color: #666666; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #ff9900;}
+
+li {margin-left:15px;}
+
+table {width: 100%; margin-bottom: 0px; border: 5px;}
+td {margin: 0px;  vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+input.formButton {}
+
+.item {border:1px solid #a7a7a7;background-image : url('images/cbbbg.png');}
+.itemHead {background-image : url('images/st2.gif');padding:5px;border-bottom:1px dashed #b7b7b7;}
+.itemInfo {padding:5px;}
+.itemTitle a {color: #FFFFFF;padding-left:10px;font-weight:bold;}
+.itemTitle {color: #666666;padding-left:10px;font-weight:bold;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding:10px;}
+.itemText {font-size:12px; line-height:120%;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {}
+.itemAdminLink {}
+.itemPermaLink {}
+
+
+th {background-color: #9b8473; color: #555555; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px; padding-right: 5px; padding-left: 5px;	padding-top: 2px; padding-bottom: 2px;}
+#mainmenu {width:160px;}
+#mainmenu a {display: block; padding-left: 10px; color: #555555; font-size: 11px; background-color: none;}
+#mainmenu a:hover {color: #000000; text-decoration: none; background-color: #f1f1f1;font-weight:bold;}
+#mainmenu a.menuTop {padding-left: 10px;}
+#mainmenu a.menuMain {padding-left: 10px; margin-top: 1px;}
+#mainmenu a.menuSub {padding-left: 19px; margin-top: 1px; color: #666666;}
+#mainmenu a.menuSub:hover {padding-left: 19px; margin-top: 1px; color: #666666;}
+#usermenu {width:160px;}
+#usermenu a {display: block; padding-left: 10px; color: #555555; font-size: 11px; background-color: none;}
+#usermenu a:hover {background-color: #f1f1f1;}
+#usermenu a.menuTop {padding-left: 10px;}
+#usermenu a.highlight {background-color: #fccccc;}
+
+.outer {background:#ffffff; border: 1px solid #b7b7b7;}
+.head {vertical-align: middle; background-color: #A79778; padding: 5px; font-weight: bold; color: #555555;}
+.even      {background:#BBAB8C; padding-left:4; padding-right:4; padding-top:1; padding-bottom:1  }
+.even a {color: #666666; text-decoration: none;}
+.even a:hover {color: #FF9900; text-decoration: none;}
+.odd {background-color: #DCCDAE; padding: 5px;}
+.odd a {color: #666666; text-decoration: none;}
+.odd a:hover {color: #FF9900; text-decoration: none;}
+.foot {background-color: #9B8473; padding: 5px; font-weight: bold; color: #709FCF;}
+tr.even td {background-color: #DBCBAC; padding: 5px;}
+tr.odd td {background-color: #CABA9B; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #ffffff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #ffffff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px; font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserName a {color: #ffffff;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/* Redirect messages */
+div.errorMsg {
+	background-color: #DCCEB1; 
+	color: #A29273; 
+	text-align: center;  
+	border: 1px solid #8499b1;
+	padding: 8px;
+	font-weight: bold;
+}
+div.confirmMsg {
+	background-color : #DCCEB1; 
+	color: #A29273;
+	text-align:center; 
+	border: 1px solid #243446;
+	font-weight : bold;
+	width: 80%;
+	margin: 0 auto;
+	padding: 8px;
+}
